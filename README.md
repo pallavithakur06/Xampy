@@ -3,70 +3,70 @@ A Python-based tool to create MCQ exams, host them locally, and receive real-tim
 # Features of Xampy 
 1. 📝 Create Custom MCQ Exams
 
--Lets you enter questions, 4 options (A–D), and specify the correct answer.
+- Lets you enter questions, 4 options (A–D), and specify the correct answer.
 
--Supports optional image attachment (question image & explanation image).
+- Supports optional image attachment (question image & explanation image).
 
--Stores questions in a structured format in questions.json.
+- Stores questions in a structured format in questions.json.
 
 2. 🖼️ Image Support
 
--Accepts local file paths or direct URLs for:
+- Accepts local file paths or direct URLs for:
 
--Question image
+- Question image
 
--Explanation image
+- Explanation image
 
 Converts images to Base64 so they can be embedded in web apps easily.
 
 3. ⏳ Set Exam Timer
 
--You can set a custom duration (in minutes) for the exam.
+- You can set a custom duration (in minutes) for the exam.
 
--Timer setting is saved in timer.json.
+- Timer setting is saved in timer.json.
 
 4. 🌐 Built-in HTTP Server
 
--Automatically runs a local HTTP server (on port 8000).
+- Automatically runs a local HTTP server (on port 8000).
 
--Handles incoming quiz submission data (via POST request to /submit_result).
+-  Handles incoming quiz submission data (via POST request to /submit_result).
 
 5. 📥 Receive & Display Student Results
 
 Whenever a student submits their quiz:
 
--Their name, score, and answers are logged to the terminal in real time.
+- Their name, score, and answers are logged to the terminal in real time.
 
--Displays which questions were answered and the marks obtained.
+- Displays which questions were answered and the marks obtained.
 
 6. 🧠 Reusable & Easy to Extend
 
--All data is stored in JSON:
+All data is stored in JSON:
 
--Easy to use with frontend tools (like HTML/JavaScript quizzes).
+- Easy to use with frontend tools (like HTML/JavaScript quizzes).
 
--Simple design makes it easy to:
+- Simple design makes it easy to:
 
 Connect with tunneling services (Serveo, localhost.run)
 
--Extend for features like ranking, storing results, etc.
+Extend for features like ranking, storing results, etc.
 
 7. 🔐 No External Dependencies
 
--Uses only built-in Python modules:
+Uses only built-in Python modules:
 
--http.server, json, base64, os, sys, etc.
+- http.server, json, base64, os, sys, etc.
 
 Easy to run on any machine without installing extra packages.
 
 # Installation and Usage
 git clone https://github.com/pallavithakur06/Xampy
 
--cd Xampy
+-  cd Xampy
 
--chmod +x exam.py
+-  chmod +x exam.py
 
--python exam.py
+-  python exam.py
 
 
 # Thank you for using Xampy
