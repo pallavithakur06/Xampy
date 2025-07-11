@@ -1,0 +1,587 @@
+[
+  {
+    "question": "Which of the following best defines Artificial Intelligence (AI)?",
+    "options": [
+      "Programming computers to mimic human behavior",
+      "Creating machines that can perform tasks requiring human intelligence",
+      "Developing hardware that can process data faster than humans",
+      "Designing software that operates without human intervention"
+    ],
+    "answer": "Creating machines that can perform tasks requiring human intelligence",
+    "explanation": "AI involves creating systems that can perform tasks that typically require human intelligence, such as understanding language, recognizing patterns, and making decisions.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In the context of AI, what is a 'heuristic'?",
+    "options": [
+      "A guaranteed method to find the optimal solution",
+      "A rule-of-thumb that guides search algorithms",
+      "A type of unsupervised learning algorithm",
+      "A statistical model used for prediction"
+    ],
+    "answer": "A rule-of-thumb that guides search algorithms",
+    "explanation": "Heuristics are strategies or approaches that guide problem-solving and decision-making, often used to speed up the process of finding a satisfactory solution.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which search algorithm uses a priority queue and evaluates nodes based on the cost to reach the node plus the estimated cost to the goal?",
+    "options": [
+      "Breadth-First Search",
+      "Depth-First Search",
+      "A* Search",
+      "Hill Climbing"
+    ],
+    "answer": "A* Search",
+    "explanation": "A* Search algorithm uses both the actual cost to reach a node and the estimated cost from that node to the goal, making it both complete and optimal under certain conditions.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of a production system in AI?",
+    "options": [
+      "A set of rules",
+      "A database of facts",
+      "A control strategy",
+      "A learning algorithm"
+    ],
+    "answer": "A learning algorithm",
+    "explanation": "A production system consists of a set of rules, a database (working memory), and a control strategy. Learning algorithms are separate components that can be integrated but are not inherent characteristics of production systems.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In AI, the 'Turing Test' is used to determine:",
+    "options": [
+      "The efficiency of an algorithm",
+      "If a machine can exhibit intelligent behavior indistinguishable from a human",
+      "The computational complexity of a problem",
+      "The learning rate of a neural network"
+    ],
+    "answer": "If a machine can exhibit intelligent behavior indistinguishable from a human",
+    "explanation": "The Turing Test assesses a machine's ability to exhibit behavior indistinguishable from that of a human, serving as a benchmark for AI.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which logic is used in AI to represent knowledge with quantifiers and predicates?",
+    "options": [
+      "Propositional Logic",
+      "Predicate Logic",
+      "Fuzzy Logic",
+      "Modal Logic"
+    ],
+    "answer": "Predicate Logic",
+    "explanation": "Predicate Logic extends Propositional Logic by including quantifiers and predicates, allowing for more expressive representations of knowledge.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In game playing AI, the Minimax algorithm is used to:",
+    "options": [
+      "Maximize the player's score regardless of the opponent's move",
+      "Minimize the opponent's score while maximizing the player's score",
+      "Determine the shortest path to victory",
+      "Randomly select the next move"
+    ],
+    "answer": "Minimize the opponent's score while maximizing the player's score",
+    "explanation": "The Minimax algorithm evaluates possible moves by assuming that the opponent also plays optimally, aiming to minimize the possible loss for a worst-case scenario.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is a key application area of Natural Language Processing (NLP)?",
+    "options": [
+      "Image recognition",
+      "Speech synthesis",
+      "Machine translation",
+      "Robotic motion planning"
+    ],
+    "answer": "Machine translation",
+    "explanation": "NLP enables machines to understand and process human language, with machine translation being a prominent application, converting text from one language to another.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "What distinguishes Generative AI models from traditional AI models?",
+    "options": [
+      "They can only classify data",
+      "They generate new content based on training data",
+      "They require no training data",
+      "They operate without any human input"
+    ],
+    "answer": "They generate new content based on training data",
+    "explanation": "Generative AI models, such as GPT, can create new content like text, images, or music by learning patterns from existing data.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In Prompt Engineering, what is the primary goal?",
+    "options": [
+      "To train the AI model",
+      "To fine-tune the model's architecture",
+      "To design effective inputs that elicit desired outputs from AI models",
+      "To evaluate the performance of AI algorithms"
+    ],
+    "answer": "To design effective inputs that elicit desired outputs from AI models",
+    "explanation": "Prompt Engineering involves crafting inputs (prompts) that guide AI models to produce specific, desired outputs, enhancing their utility and accuracy.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is a type of Uninformed Search strategy?",
+    "options": [
+      "A* Search",
+      "Best-First Search",
+      "Breadth-First Search",
+      "Hill Climbing"
+    ],
+    "answer": "Breadth-First Search",
+    "explanation": "Breadth-First Search is an uninformed search strategy that explores all nodes at the present depth before moving to the next level, without any domain-specific knowledge.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In statistical reasoning, Bayes' Theorem is used to:",
+    "options": [
+      "Determine the shortest path in a graph",
+      "Update the probability estimate for a hypothesis as more evidence is acquired",
+      "Calculate the mean of a dataset",
+      "Optimize neural network weights"
+    ],
+    "answer": "Update the probability estimate for a hypothesis as more evidence is acquired",
+    "explanation": "Bayes' Theorem provides a way to update the probability of a hypothesis based on new evidence, fundamental in probabilistic reasoning.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which AI technique is inspired by the process of natural selection?",
+    "options": [
+      "Neural Networks",
+      "Genetic Algorithms",
+      "Fuzzy Logic",
+      "Rule-Based Systems"
+    ],
+    "answer": "Genetic Algorithms",
+    "explanation": "Genetic Algorithms mimic the process of natural selection, using operations like mutation and crossover to evolve solutions to problems over generations.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Fuzzy Logic is particularly useful in AI because it:",
+    "options": [
+      "Handles binary true/false decisions effectively",
+      "Models uncertainty and reasoning with degrees of truth",
+      "Requires precise input data",
+      "Is based on classical logic principles"
+    ],
+    "answer": "Models uncertainty and reasoning with degrees of truth",
+    "explanation": "Fuzzy Logic allows for reasoning with degrees of truth rather than binary true/false, making it suitable for handling uncertainty and imprecise information.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In AI, what is the primary purpose of Alpha-Beta Pruning in game trees?",
+    "options": [
+      "To find the shortest path to victory",
+      "To eliminate the need for a heuristic function",
+      "To reduce the number of nodes evaluated in the Minimax algorithm",
+      "To convert a non-deterministic problem into a deterministic one"
+    ],
+    "answer": "To reduce the number of nodes evaluated in the Minimax algorithm",
+    "explanation": "Alpha-Beta Pruning optimizes the Minimax algorithm by eliminating branches that won't affect the final decision, thereby reducing computation time.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is a characteristic of a rational agent in AI?",
+    "options": [
+      "Always acts randomly",
+      "Acts without considering the environment",
+      "Acts to achieve the best expected outcome",
+      "Ignores past experiences"
+    ],
+    "answer": "Acts to achieve the best expected outcome",
+    "explanation": "A rational agent acts to achieve the best expected outcome based on its knowledge and the environment.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In AI, which search strategy expands the node that appears to be closest to the goal?",
+    "options": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Best-First Search",
+      "Uniform Cost Search"
+    ],
+    "answer": "Best-First Search",
+    "explanation": "Best-First Search uses a heuristic to select the node that appears to be closest to the goal.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which logic allows reasoning with degrees of truth rather than the usual true or false?",
+    "options": [
+      "Propositional Logic",
+      "Predicate Logic",
+      "Fuzzy Logic",
+      "Modal Logic"
+    ],
+    "answer": "Fuzzy Logic",
+    "explanation": "Fuzzy Logic allows reasoning with degrees of truth, handling the concept of partial truth.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "What is the primary function of the 'percept' in an AI agent?",
+    "options": [
+      "To act upon the environment",
+      "To store past actions",
+      "To perceive the environment",
+      "To make decisions"
+    ],
+    "answer": "To perceive the environment",
+    "explanation": "The 'percept' is the agent's perception of the environment at a given instant.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is an example of an informed search strategy?",
+    "options": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Uniform Cost Search",
+      "A* Search"
+    ],
+    "answer": "A* Search",
+    "explanation": "A* Search is an informed search strategy that uses heuristics to find the most promising path.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In the context of AI, what does 'learning' refer to?",
+    "options": [
+      "Hardcoding rules into a system",
+      "Adjusting behavior based on past experiences",
+      "Executing predefined commands",
+      "Randomly changing outputs"
+    ],
+    "answer": "Adjusting behavior based on past experiences",
+    "explanation": "In AI, learning refers to the ability of a system to improve its performance based on past experiences.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is a component of a production system in AI?",
+    "options": [
+      "Heuristic function",
+      "Knowledge base",
+      "Inference engine",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "A production system consists of a knowledge base, inference engine, and often utilizes heuristic functions.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "What is the role of the 'utility function' in AI?",
+    "options": [
+      "To define the goal state",
+      "To measure the performance of an agent",
+      "To map a state to a measure of desirability",
+      "To store past actions"
+    ],
+    "answer": "To map a state to a measure of desirability",
+    "explanation": "The utility function assigns a numerical value to each state, indicating its desirability for the agent.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which AI paradigm is inspired by the human brain's structure and function?",
+    "options": [
+      "Genetic Algorithms",
+      "Fuzzy Logic",
+      "Neural Networks",
+      "Expert Systems"
+    ],
+    "answer": "Neural Networks",
+    "explanation": "Neural Networks are inspired by the structure and function of the human brain, consisting of interconnected neurons.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In Natural Language Processing, what is 'tokenization'?",
+    "options": [
+      "Converting text to speech",
+      "Breaking text into words or phrases",
+      "Translating text between languages",
+      "Analyzing the sentiment of text"
+    ],
+    "answer": "Breaking text into words or phrases",
+    "explanation": "Tokenization is the process of breaking down text into individual words or phrases, known as tokens.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is a challenge in AI related to 'common sense knowledge'?",
+    "options": [
+      "Data scarcity",
+      "Ambiguity in language",
+      "Lack of computational power",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "Challenges in AI related to common sense knowledge include data scarcity, language ambiguity, and computational limitations.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "What is the primary goal of 'machine learning' in AI?",
+    "options": [
+      "To write explicit rules for tasks",
+      "To enable systems to learn from data",
+      "To simulate human emotions",
+      "To perform arithmetic calculations"
+    ],
+    "answer": "To enable systems to learn from data",
+    "explanation": "Machine learning aims to enable systems to learn patterns and make decisions based on data.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following best describes 'unsupervised learning'?",
+    "options": [
+      "Learning with labeled data",
+      "Learning without any data",
+      "Learning with unlabeled data",
+      "Learning through reinforcement"
+    ],
+    "answer": "Learning with unlabeled data",
+    "explanation": "Unsupervised learning involves finding patterns in data without labeled responses.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In AI, what is 'overfitting'?",
+    "options": [
+      "When a model performs well on training data but poorly on new data",
+      "When a model performs poorly on both training and new data",
+      "When a model performs well on new data but poorly on training data",
+      "When a model has too few parameters"
+    ],
+    "answer": "When a model performs well on training data but poorly on new data",
+    "explanation": "Overfitting occurs when a model learns the training data too well, including noise, leading to poor generalization.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is a type of reinforcement learning?",
+    "options": [
+      "Q-learning",
+      "K-means clustering",
+      "Linear regression",
+      "Decision trees"
+    ],
+    "answer": "Q-learning",
+    "explanation": "Q-learning is a type of reinforcement learning algorithm that seeks to learn the value of an action in a particular state.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is a key feature of a knowledge-based system?",
+    "options": [
+      "It learns from data without human intervention",
+      "It uses a database of facts and rules to make decisions",
+      "It operates without any prior knowledge",
+      "It relies solely on statistical models"
+    ],
+    "answer": "It uses a database of facts and rules to make decisions",
+    "explanation": "Knowledge-based systems utilize a structured set of facts and rules to simulate human decision-making processes.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In AI, what does the term 'heuristic' refer to?",
+    "options": [
+      "An exact algorithm for problem-solving",
+      "A rule-of-thumb strategy to guide search",
+      "A method to guarantee optimal solutions",
+      "A random approach to decision-making"
+    ],
+    "answer": "A rule-of-thumb strategy to guide search",
+    "explanation": "Heuristics are strategies or principles that guide problem-solving and decision-making, often used to speed up the process.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which search algorithm is complete but not optimal?",
+    "options": [
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Uniform Cost Search",
+      "A* Search"
+    ],
+    "answer": "Depth-First Search",
+    "explanation": "Depth-First Search is complete in finite spaces but not guaranteed to find the optimal solution.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "What is the main advantage of using A* search algorithm?",
+    "options": [
+      "It requires less memory than other algorithms",
+      "It guarantees the shortest path if the heuristic is admissible",
+      "It explores all possible paths equally",
+      "It does not require a heuristic function"
+    ],
+    "answer": "It guarantees the shortest path if the heuristic is admissible",
+    "explanation": "A* search algorithm combines the cost to reach the node and the estimated cost to the goal, ensuring optimality with an admissible heuristic.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In the context of AI, what is 'backward chaining'?",
+    "options": [
+      "A method that starts from known facts and moves forward",
+      "A technique that starts from the goal and works backward to find supporting facts",
+      "A random search strategy",
+      "A way to store knowledge in a database"
+    ],
+    "answer": "A technique that starts from the goal and works backward to find supporting facts",
+    "explanation": "Backward chaining is a reasoning method that begins with the goal and works backward to determine the necessary conditions.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is not a component of a production system in AI?",
+    "options": [
+      "A set of production rules",
+      "A working memory",
+      "An inference engine",
+      "A neural network"
+    ],
+    "answer": "A neural network",
+    "explanation": "Production systems consist of production rules, working memory, and an inference engine; neural networks are a separate AI paradigm.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "What is the primary purpose of the 'evaluation function' in game-playing AI?",
+    "options": [
+      "To determine the rules of the game",
+      "To evaluate the performance of the AI",
+      "To assess the desirability of a game position",
+      "To generate random moves"
+    ],
+    "answer": "To assess the desirability of a game position",
+    "explanation": "The evaluation function estimates the value or desirability of a game position, guiding the AI's decision-making.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which AI technique is inspired by the process of natural selection?",
+    "options": [
+      "Neural Networks",
+      "Genetic Algorithms",
+      "Fuzzy Logic",
+      "Expert Systems"
+    ],
+    "answer": "Genetic Algorithms",
+    "explanation": "Genetic Algorithms mimic natural selection by evolving solutions over generations to optimize performance.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In Natural Language Processing, what does 'stemming' refer to?",
+    "options": [
+      "Analyzing the grammar of a sentence",
+      "Converting words to their root form",
+      "Translating text between languages",
+      "Identifying named entities in text"
+    ],
+    "answer": "Converting words to their root form",
+    "explanation": "Stemming reduces words to their base or root form, aiding in text normalization and analysis.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "What is the main difference between supervised and unsupervised learning?",
+    "options": [
+      "Supervised learning uses labeled data; unsupervised learning uses unlabeled data",
+      "Supervised learning is faster than unsupervised learning",
+      "Unsupervised learning requires human intervention",
+      "There is no difference"
+    ],
+    "answer": "Supervised learning uses labeled data; unsupervised learning uses unlabeled data",
+    "explanation": "Supervised learning relies on labeled datasets to train models, whereas unsupervised learning identifies patterns in unlabeled data.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is a common application of AI in the healthcare industry?",
+    "options": [
+      "Predictive maintenance",
+      "Fraud detection",
+      "Medical diagnosis",
+      "Autonomous vehicles"
+    ],
+    "answer": "Medical diagnosis",
+    "explanation": "AI is widely used in healthcare for tasks like medical diagnosis, analyzing medical images, and predicting patient outcomes.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "What does 'fuzzy logic' allow that classical logic does not?",
+    "options": [
+      "Binary decision-making",
+      "Handling of uncertainty and partial truths",
+      "Strict true or false evaluations",
+      "Deterministic outcomes"
+    ],
+    "answer": "Handling of uncertainty and partial truths",
+    "explanation": "Fuzzy logic enables reasoning with degrees of truth, accommodating uncertainty and imprecision in information.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "In AI, what is the purpose of a 'constraint satisfaction problem'?",
+    "options": [
+      "To find a solution that satisfies all given constraints",
+      "To maximize the number of constraints violated",
+      "To ignore constraints and find any solution",
+      "To randomly assign values to variables"
+    ],
+    "answer": "To find a solution that satisfies all given constraints",
+    "explanation": "Constraint satisfaction problems aim to find values for variables that meet all specified constraints.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "Which of the following is an example of a reactive agent?",
+    "options": [
+      "An agent that plans its actions based on future predictions",
+      "An agent that learns from past experiences",
+      "An agent that responds to stimuli without internal state",
+      "An agent that uses complex reasoning"
+    ],
+    "answer": "An agent that responds to stimuli without internal state",
+    "explanation": "Reactive agents operate based on current perceptions, without maintaining an internal state or history.",
+    "question_image": null,
+    "explanation_image": null
+  },
+  {
+    "question": "What is the role of 'alpha-beta pruning' in game tree search?",
+    "options": [
+      "To expand all possible nodes in the game tree",
+      "To eliminate branches that cannot influence the final decision",
+      "To randomly select moves in a game",
+      "To increase the depth of the search tree"
+    ],
+    "answer": "To eliminate branches that cannot influence the final decision",
+    "explanation": "Alpha-beta pruning reduces the number of nodes evaluated in the game tree by pruning branches that won't affect the outcome.",
+    "question_image": null,
+    "explanation_image": null
+  }
+]

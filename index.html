@@ -1,0 +1,28 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+  <title>MCQ Quiz</title>  
+  <link rel="stylesheet" href="style.css" />  
+</head>  
+<body style="background-color: white;">  
+  <div class="container" id="main-container">  
+    <h1>Wish You All The Best</h1>  
+
+    <!-- Student Name Input Field -->
+    <label for="student-name"><strong>Enter Your Name:</strong></label><br/>
+    <input type="text" id="student-name" placeholder="Your full name"><br/><br/>
+
+    <div id="quiz-container"></div>  
+    <button id="submit-btn">Submit</button>  
+    <button id="download-btn">Download PDF</button>  
+    <div id="result-container"></div>  
+  </div>  
+  
+  <div id="timer-overlay"></div>  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>  
+  <script src="script.js"></script>  
+</body>  
+</html>
