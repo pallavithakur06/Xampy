@@ -53,8 +53,12 @@ Easy to run on any machine without installing extra packages.
 
 # Installation and Usage
 git clone https://github.com/pallavithakur06/Xampy
-cd Xampy
-chmod +x exam.py
-pyhton exam.py
 
-# Thank you for uaing Xampy
+cd Xampy
+
+chmod +x exam.py
+
+pyton exam.py
+
+
+# Thank you for using Xampy
